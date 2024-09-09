@@ -1,0 +1,87 @@
+/* Tema claro */
+body {
+  background-color: white;
+}
+
+/* Tema escuro */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+}
+#pagina{
+  font-family: 'Inter', sans-serif;
+  max-width: 1440px;
+  height: auto; /* Alterei para auto para permitir altura flexível */
+  margin: 0 auto; /* Centraliza a página */
+}
+#Topo{
+    color: white;
+    background: #303030;
+}
+.mg_text{
+  margin-left: 25px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.size{
+  font-size: 40px;
+}
+h1{
+  font-size: 30px;
+}
+.lista{
+  background: #F9F9F9;
+display: flex;
+padding: 50px;
+justify-content: space-between;
+}
+.card{
+  background: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.img{
+  margin-right: 15px;
+}
+.central{
+  justify-content: center;
+}
+.central{
+  justify-content: center;
+  text-align: justify;
+}
+
+#conteudo{
+  padding: 90px;
+}
+#rodape{
+  background-color: #303030;
+}
+#form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.input {
+  margin-bottom: 20px;
+  padding: 10px; 
+  width: 70%;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.input-button {
+  height: 70px;
+  width: 50%;
+  font-size: 32px;
+  margin-bottom: 50px;
+  padding: 10px; 
+  color: white;
+  font: bold;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #C07212;
+}
